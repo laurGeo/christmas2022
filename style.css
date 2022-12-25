@@ -2,6 +2,21 @@
  * {
     box-sizing: border-box; 
  }
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
  body{
     background-color: #eafbff;
     background-image: linear-gradient(to bottom,#eafbff 0%,#eafbff 50%, #5290f9 50%, #5290f9 100%);
